@@ -1,3 +1,78 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: rgb(145, 135, 135);
+  margin: 10px 20 px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  text-align: center;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  height: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 144px;
+  color: aquamarine;
+  text-shadow: 10px 5px 5px black;
+  opacity: 0.4;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.btn {
+  width: 150px;
+  height: 70px;
+  background-color: aquamarine;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+  justify-content: space-between;
+  box-shadow: 10px 5px 5px black;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/*Moves*/
+.moves {
+  justify-content: space-around;
+  margin: 0 100px 80px 100px;
+}
+
+/*Results*/
+.results .btn {
+  margin-left: 40px;
+  justify-content: space-between;
+}
+
+.page-result-description {
+  justify-content: space-between;
+  margin: 0 355px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNJLHNCQUFBO0FDQUo7O0FESUE7RUFDSSxvQ0FBQTtFQUNBLGtCQUFBO0VBQ0Esc0VBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDREo7O0FESUE7RUFDSSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSxnQkFBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQ0RKOztBRElBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsMEJBQUE7RUFDQSxpQkFBQTtBQ0RKOztBRElBO0VBQ0ksZ0JBQUE7RUFDQSxpQkFBQTtFQUNBLCtCQUFBO0VBQ0EsWUFBQTtBQ0RKOztBRElBO0VBQ0ksZUFBQTtBQ0RKOztBRElBO0VBQ0ksZUFBQTtBQ0RKOztBREtBO0VBQ0ksWUFBQTtFQUNBLFlBQUE7RUFDQSw0QkFBQTtFQUNBLG1CQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSw4QkFBQTtFQUNBLDhCQUFBO0FDRko7O0FESUE7RUFDSSxhQUFBO0VBQ0EsdUJBQUE7QUNESjs7QURHQSxRQUFBO0FBRUE7RUFDSSw2QkFBQTtFQUNBLDBCQUFBO0FDREo7O0FETUEsVUFBQTtBQUVBO0VBQ0ksaUJBQUE7RUFDQSw4QkFBQTtBQ0pKOztBRFNBO0VBQ0ksOEJBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7QUNOSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

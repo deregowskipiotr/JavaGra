@@ -11,22 +11,29 @@
     <h1>Paper Rock Scissors</h1>
     <div class="container">
         <h2>Casino House</h2>
-        <div class="moves">
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
+        <section class="moves">
+            <h4>CLICK FOR MOVE</h4>
+        <div class="moves wrapper">
+            <button class="btn" id="rock">ROCK</button>
+            <button class="btn" id="paper">PAPER</button>
+            <button class="btn" id="scissors">SCISSORS</button>
         </div>
-        <div class="results">
-            <div>
-                <span>Player move</span>
-                <span id="players-move">Rock</span>
+        </section>
+        <section class="results">
+            <div class="page-result-description wrapper">
+                <h4>YOU</h4>
+                <h4>OPONENT</h4>
             </div>
-            <div>
-                <span>Computer move</span>
-                <span id="computers-move">Paper</span>
-            </div>
-            <div id="result"></div>
-        </div>
+        <div class="results wrapper">
+            <div class="main-results">                    
+                <button class ="btn" id="players-move"></button>
+                <button class="btn" id="computers-move"></button>
+            </div>    
+        </div> 
+        <div class="page-result">
+            <h3 id="result"></h3>
+        </div>    
+        </section> 
     </div>
 
 
